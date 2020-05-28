@@ -1,7 +1,7 @@
 # Create single VSI in dal09. Hourly billed with private network connection only. 
 
 resource "ibm_compute_vm_instance" "tono_terraform" {
-  hostname             = "tono_terraform01"
+  hostname             = "tono-terraform01"
   domain               = "example.com"
   os_reference_code    = "CENTOS_7_64"
   datacenter           = "dal09"
