@@ -5,7 +5,7 @@ resource "ibm_compute_vm_instance" "tono_terraform" {
   domain               = "example.com"
   os_reference_code    = "CENTOS_7_64"
   datacenter           = "dal09"
-  network_speed        = 100
+  network_speed        = 10
   hourly_billing       = true
   private_network_only = true
   cores                = 1
