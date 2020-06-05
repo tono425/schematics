@@ -9,7 +9,7 @@ resource "ibm_compute_vm_instance" "tono_terraform" {
   hourly_billing       = true
   private_network_only = false
   cores                = 1
-  memory               = 1024
+  memory               = 2048
   disks                = [25]
   local_disk           = false
 }
